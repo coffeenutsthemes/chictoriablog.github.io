@@ -376,6 +376,56 @@ p.even .line, p.odd .line {font-style:italic!important;}
     padding: 10px 4px 10px 10px;} 
 .timw {margin-right:4px;}
 .twttime {display:none!important;} 
+#indexpage_pagination a {
+    font-size:12px;
+    display:block;
+    font-weight:700!important;
+    letter-spacing:4px;
+    text-transform:uppercase;}
+.indexpagi-prev a {
+    width:30%;
+    float:left;
+    text-align:left;
+    padding:15px 30px 15px 0!important;
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+    transition:.5s;}
+.indexpagi-next a {
+    width:30%;
+    float:right;
+    text-align:right;
+    padding:15px 0 15px 30px!important;
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+    transition:.5s;}
+a.read-more {
+    width:180px;
+    display:block;
+    font-size:11px;
+    text-align:center;
+    padding:1em 1.5em;
+    letter-spacing:3px;
+    text-transform:uppercase; 
+    margin:20px auto!important;
+    -webkit-transition: .5s ease-out; 
+    -moz-transition: .5s ease-out; 
+    -o-transition: .5s ease-out; 
+    transition: .5s ease-out;}
+.shown-header {
+    width:300px;
+    font-size:16px; 
+    word-spacing:5px; 
+    letter-spacing:4px;
+    position:relative;
+    display:block!important;
+    padding:8px 5px;
+    vertical-align:middle;
+    margin: 20px auto 10px 220px;!important;
+    text-transform:uppercase!important;}
 .footer-inner:before {
     content: '';
     border-width: 1px;
@@ -393,31 +443,31 @@ p.even .line, p.odd .line {font-style:italic!important;}
     transform: rotate(45deg); 
     behavior:url(-ms-transform.htc);}
 .footer-desc {
-	padding:15px 35px;
-	overflow:hidden;}
+    padding:15px 35px;
+    overflow:hidden;}
 .footer-pimg {
-	margin:20px auto;}
+    margin:20px auto;}
 .footer-pimg img {
-	border-radius:100%;}
+    border-radius:100%;}
 .footer-intro {
     width:95%;
     padding:10px;
     margin:0 auto!important;
-	overflow:hidden;}
+    overflow:hidden;}
 .htext a {
-	font-size:15px;
-	letter-spacing:3px;
-	margin:-50px auto 5px auto;}
+    font-size:15px;
+    letter-spacing:3px;
+    margin:-50px auto 5px auto;}
 p.footer-intro-desc {
     font-size:10px;
     font-style:italic;
-	margin:10px auto;
-	text-transform:justify!important;}
+    margin:10px auto;
+    text-transform:justify!important;}
 .footer-social a {
-	font-size:15px;
-	margin-right:15px;}
+    font-size:15px;
+    margin-right:15px;}
 .footer-social a:last-child{
-	margin-right:0!important;}
+    margin-right:0!important;}
 @-webkit-keyframes fadeInUp {
     0% {
         opacity: 0;
