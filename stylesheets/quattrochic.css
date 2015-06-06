@@ -139,13 +139,15 @@ ul.destiel li a {
 #instagram-box li {
     padding:1!important;
     width:30%!important;
+    height:100%;
     margin:0 auto 1px auto;
     display: inline-block;}
 #instagram-box li img { 
     opacity: 1; 
     padding: 2px; 
     margin:0 auto; 
-    height: auto !important;
+    height: auto;
+    max-height: 100%;
     max-width: 100% !important;
     background: transparent;
     background-size: 100% 100% !important; 
@@ -312,7 +314,7 @@ p.even .line, p.odd .line {font-style:italic!important;}
     -webkit-box-shadow:inset 0 0 5px 5px #222;
     -moz-box-shadow:inset 0 0 5px 5px #222;
     box-shadow:inset 0 0 5px 5px #222;
-	position: fixed;}
+    position: fixed;}
 .cbp-spmenu-vertical {
     top: 0;
     width: 300px;
