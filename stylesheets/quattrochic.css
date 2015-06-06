@@ -144,7 +144,8 @@ ul.destiel li a {
 #instagram-box li img { 
     opacity: 1; 
     padding: 2px; 
-    margin:0 auto;
+    margin:0 auto; 
+    height: auto !important;
     max-width: 100% !important;
     background: transparent;
     background-size: 100% 100% !important; 
@@ -415,7 +416,7 @@ a.read-more {
     -moz-transition: .5s ease-out; 
     -o-transition: .5s ease-out; 
     transition: .5s ease-out;}
-.shown-header {
+.footer-shown-header {
     width:300px;
     font-size:16px; 
     word-spacing:5px; 
@@ -424,7 +425,8 @@ a.read-more {
     display:block!important;
     padding:8px 5px;
     vertical-align:middle;
-    margin: 20px auto 10px 220px;!important;
+    text-align:center;
+    margin: 20px auto 10px auto;!important;
     text-transform:uppercase!important;}
 .footer-inner:before {
     content: '';
